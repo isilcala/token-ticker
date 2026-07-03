@@ -1,3 +1,5 @@
+[**English**](README.md)
+
 # token-ticker
 
 桌面 LLM 配额监控站 —— 独立供电，无需电脑中转。

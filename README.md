@@ -1,3 +1,5 @@
+[**中文**](README_ZH.md)
+
 # token-ticker
 
 Standalone battery-powered desktop LLM quota monitor for your desk.
