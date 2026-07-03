@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "device": {
+        "timezone": "Asia/Shanghai",
+        "ntp_enabled": true,
+        "ntp_sync_hours": 24,
+        "sleep_schedule": {
+            "enabled": true,
+            "wake_time": "08:00",
+            "sleep_time": "24:00",
+            "manual_wake_minutes": 5
+        }
+    },
+    "wifi": {
+        "enabled": true,
+        "ssid": "REPLACE_WITH_YOUR_WIFI_SSID",
+        "password": "REPLACE_WITH_YOUR_WIFI_PASSWORD"
+    },
+    "display": {
+        "active_provider_id": "minimax-cn",
+        "weather_enabled": false
+    },
+    "providers": [
+        {
+            "id": "minimax-cn",
+            "type": "minimax",
+            "enabled": true,
+            "region": "cn",
+            "api_key": "REPLACE_WITH_YOUR_MINIMAX_API_KEY"
+        }
+    ],
+    "weather": {
+        "enabled": false
+    }
+}
